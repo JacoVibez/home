@@ -1,80 +1,153 @@
-<!DOCTYPE html>
-<html>
+<DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Jaco Vibezz Counter!</title>
-    <script src="scripts/banner.js"></script>
-    <meta charset="UTF-8">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🎄 Jaco Vibez Countdown 🛬</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="white.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 
-<body>
-
-    <ul class="topnav">
-        <li>
-            <div style="padding:0 28px;"><b><a style="font-size:23px; color:#fff; text-shadow: 0px 2px 5px #FF334C;">Jaco Vibez</a></b>
+    <body>
+        <header>
+            <ul class="navigation">
+                <img src="https://wlgaming.org/wp-content/uploads/elementor/thumbs/cropped-transparentwlglol-pyc9lpc81ne0gh9ssx8ol1tlmu0zbl67j2733hiw3k.png"
+                    title="cropped-transparentwlglol.png" alt="cropped-transparentwlglol.png">
+                <a href="#" class="logo">Jaco Vibez</a>
+                <li><a href="#"><b>Home</b></a></li>
+                <li><a href="https://instagram.com/iakovos.michelis/">Instagram</a></li>
+                <li><a href="https://open.spotify.com/user/vsdk29s30xemhhwo3c7sdz9dj?si=885b4a1f389c4cb3">Spotify</a>
+                </li>
+            </ul>
+            <div class="search">
+                <ion-icon name="menu-outline" class="menuToggle"></ion-icon>
             </div>
-        </li>
-        <li class="right"><a href="soon.html" style="text-shadow: 0px 2px 5px #000;">🌙</a></li>
-        <li class="right"><a href="https://discord.gg/gBjkbEu6Cx">Discord Server</a></li>
-        <li class="right"><a href="https://www.instagram.com/iakovos.michelis/">Instagram</a></li>
-        <li class="right"><a
-                href="https://open.spotify.com/user/vsdk29s30xemhhwo3c7sdz9dj?si=8993b151d9cf46e5">Spotify</a></li>
-        <li class="right"><b><a class="active" href="#" style="text-shadow: 0px 2px 5px #FF334C;">Home</a></b></li>
-    </ul>
-
-    <div class="container">
-        <img src="images/banner.png" alt="Banner" id="Banner" style="width:100%; height:600px;">
-        <div class="centered">
-            <div id="demo">
-                <script src="scripts/countdown.js"></script>
+        </header>
+        <div class="banner">
+            <div id="particles-js"></div>
+            <img class="img" src="banner.png">
+            <div class="counter">
+                <p id="jacoCountDown"></p>
+                <p id="description"></p>
+                <p id="countDown"></p>
             </div>
         </div>
-        <div class="bot-centered"><b>till Summer🌊 / ATH touchdown!🛬</b>
+        <div class="grid">
+            <div class="grid-item"><iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/4dvTroE5OjDVSCT2ymfaJS?utm_source=generator&theme=0"
+                    width="100%" height="352" frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe></div>
+            <div class="grid-item"><iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/6WatD6sZtRKyObmDPXnoCh?utm_source=generator"
+                    width="100%" height="352" frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe></div>
+            <div class="grid-item"><iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/5duAGgadiDoa8PtBZE8RX6?utm_source=generator"
+                    width="100%" height="352" frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe></div>
+            <div class="grid-item"><iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/2gE9jVz8NmtS5qLI8GctxL?utm_source=generator"
+                    width="100%" height="352" frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe></div>
+            <div class="grid-item"><iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/6oMaXPsodXYseNSFyW6CZN?utm_source=generator"
+                    width="100%" height="352" frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe></div>
+            <div class="grid-item"><iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/0bPjYs43xvFlw4VrfkXZ3F?utm_source=generator"
+                    width="100%" height="352" frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe></div>
         </div>
-
-        <div class="content">
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/playlist/5duAGgadiDoa8PtBZE8RX6?utm_source=generator" width="30%"
-                height="400" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-            ᲼
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/playlist/2xY6iA5Pgsbqgy8vDL8tGj?utm_source=generator" width="30%"
-                height="400" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-            ᲼
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/playlist/3aRf9kzF91sXQOGL8X0G3W?utm_source=generator" width="30%"
-                height="400" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe><br><br><br>
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/playlist/6WatD6sZtRKyObmDPXnoCh?utm_source=generator" width="45.5%"
-                height="400" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-                ᲼
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/playlist/4dvTroE5OjDVSCT2ymfaJS?utm_source=generator" width="45.5%"
-                height="400" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-        </div>
-
+        <br>
         <footer>
-            <p>© 2023 @arhss.sr All Rights Reserved</p>
+            <div class="container">
+                <div class="sec quickLinks">
+                    <h2>Information</h2>
+                    <ul>
+                        <li><a href="test.html">About Me</a></li>
+                        <li><a href="https://github.com/JacoVibez/home">View Code</a></li>
+                    </ul>
+                </div>
+                <div class="sec quickLinks">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="sec quickLinks">
+                    <h2>Support</h2>
+                    <ul>
+                        <li><a href="https://discord.gg/HdPP6AMMQC">FAQ</a></li>
+                        <li><a href="https://discord.gg/HdPP6AMMQC">Report a Bug</a></li>
+                        <li><a href="https://discord.gg/HdPP6AMMQC">Help</a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <h2>Contact Me</h2>
+                    <ul class="info">
+                        <li><span><i class="fa-solid fa-envelope"></i></span>
+                            <p><a href="mailto:arhs.souris@gmail.com">arhs.souris@gmail.com</a></p>
+                            <ul class="sci">
+                                <li><a href="https://www.instagram.com/arhss.sr"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                </li>
+                                <li><a href="https://twitter.com/arhss_sr"><i class="fa-brands fa-x-twitter"></i></a>
+                                </li>
+                                <li><a href="https://github.com/arhss"><i class="fa-brands fa-github"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </footer>
+        <br>
+        <div class="copyrightText">
+            <p>© Copyright 2023 <a href="https://youtu.be/MNqSb9IUW7A">arhssr</a>. All rights reserved</p>
+        </div>
+        <div class="hamburger">
+            <div class="container">
+                <div class="darkmodeswitcher">
+                    <input type="checkbox" class="checkbox" id="chk" />
+                    <label class="label" for="chk">
+                        <div class="ball"></div>
+                    </label>
+                </div>
+                <span class="icon">
+                    <ion-icon name="close-outline" class="closeBtnHam"></ion-icon>
+                </span>
+                <div class="ham nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="https://instagram.com/iakovos.michelis/">Instagram</a></li>
+                    <li><a
+                            href="https://open.spotify.com/user/vsdk29s30xemhhwo3c7sdz9dj?si=885b4a1f389c4cb3">Spotify</a>
+                    </li>
+                </div>
+                <div class="ham foot">
+                    <li><a href="test.html">About Me</a></li>
+                    <li><a href="https://discord.gg/HdPP6AMMQC">Report a Bug</a></li>
+                    <li><a href="https://discord.gg/HdPP6AMMQC">Help</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
 
-</body>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="script.js"></script>
+    </body>
 
-</html>
+    </html>
