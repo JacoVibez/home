@@ -1,6 +1,6 @@
 /* Countdown
 -------------------------------------------------- */
-var countDownDate = new Date("Dec 22, 2023 1:0:0").getTime();
+var countDownDate = new Date("Dec 26, 2023 1:0:0").getTime();
 
 var countdownfunction = setInterval(function() {
 
